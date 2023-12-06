@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso examen</title>
+    <Style>
+        h1 {
+            text-align: center;
+        }
+
+
+        #zonaAlta {
+            display: flex;
+            border: 1px solid black;
+
+        }
+
+        #altaIzquierda {
+            flex: 1;
+            border: 1px solid black;
+            padding: 50px;
+
+        }
+
+        #altaDerecha {
+            flex: 1;
+            border: 1px solid black;
+            padding: 50px;
+
+        }
+
+        #tabla {
+            text-align: center;
+            border-collapse: collapse;
+            width: 100%;
+            height: 100%;
+        }
+
+        .horizontal1 {
+            background-color: rgb(61, 197, 154);
+        }
+
+        .horizontal2 {
+            background-color: coral;
+        }
+
+        .horizontal3 {
+            background-color: deepskyblue;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 15px;
+
+        }
+
+        .imagenYWeb {
+            display: flex;
+            border: 1px solid black;
+
+        }
+
+        .image {
+            flex: 1;
+            border: 1px solid black;
+
+        }
+
+        .web {
+            flex: 1;
+            border: 1px solid black;
+
+        }
+    </Style>
+</head>
+
+<body>
+    <h1>Ejercicio de repaso para examen</h1>
+    <div id="zonaAlta">
+        <nav id="altaIzquierda">
+            <h2 style="text-align: center;">Indice</h2>
+            <ol ">
+                <li><a href="">Enlaces</a></li>
+                <li><a href="">Tabla</a></li>
+                <li><a href="">Foto</a></li>
+                <li><a href="">Web</a></li>
+                <li><a href="">Text Area</a></li>
+                <li><a href="">Formulario</a></li>
+
+            </ol>
+        </nav>
+        <div id=" altaDerecha">
+                <table id="tabla">
+                    <tr class="horizontal1">
+                        <td>Galicia</td>
+                        <td colspan="2">Asturias</td>
+                        <td>Barcelona</td>
+                        <td rowspan="3">Canarias</td>
+                    </tr>
+                    <tr class="horizontal2">
+                        <td>Rivera Maya</td>
+                        <td colspan="3">Turkia</td>
+
+
+                    </tr>
+                    <tr class="horizontal3">
+                        <td>Pirineos</td>
+                        <td>Roma</td>
+                        <td>Egipto</td>
+                        <td>Toledo</td>
+
+                    </tr>
+                </table>
+    </div>
+
+    </div>
+    <nav class="imagenYWeb">
+        <a name></a>
+        <a
+            href="https://storage.googleapis.com/twg-content/original_images/Screen_Shot_2018-06-27_at_5.09.18_PM_F7DP7sW.png"><img
+                src="https://storage.googleapis.com/twg-content/original_images/Screen_Shot_2018-06-27_at_5.09.18_PM_F7DP7sW.png"
+                alt="Tienda de viajes el corte ingles" class="imagen"></a>
+        <iframe src="https://www.viajesmalibu.com/" frameborder="0" class="web"></iframe>
+
+    </nav>
+</body>
+
+</html>
